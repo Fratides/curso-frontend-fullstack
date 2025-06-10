@@ -1,0 +1,35 @@
+body {
+    background-color: rgb(37, 36, 36);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.flex-container { /*invertendo o eixo central do grafico, direçao*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    min-height: 100vh;
+}
+
+.box {
+    background-color: rgb(67, 2, 141);
+    border: 2px solid black;
+    height: 10rem;
+    width: 10rem;
+}
+
+.box.red {
+    background-color: rgb(235, 57, 57);
+}
+
+.box.yellow {
+    background-color: rgb(230, 230, 119);
+    height: 20rem;
+}
+
+.box.blue {
+    background-color: rgb(36, 36, 238);
+    height: 15rem;
+}
